@@ -1,0 +1,15 @@
+package com.example.newsapp
+
+import androidx.arch.core.executor.testing.InstantTaskExecutorRule
+import com.example.newsapp.utils.MainCoroutineScopeRule
+import org.junit.Rule
+
+open class BaseUnitTest {
+
+    @get:Rule
+    var coroutineTestRule = MainCoroutineScopeRule()
+
+    @get:Rule
+    var instantExecutorRule = InstantTaskExecutorRule()
+
+}

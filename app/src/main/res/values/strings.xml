@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="app_name_dev">News App(Dev)</string>
+
+<!--    login-->
+    <string name="login_title">News App</string>
+    <string name="login_username_et_hint">Username</string>
+    <string name="login_password_et_hint">Password</string>
+    <string name="login_login">Login</string>
+    <string name="login_create_account">Create Account</string>
+
+    <!--    signup-->
+    <string name="signup_title">Sign up</string>
+    <string name="signup_create_username_hint">Create Username</string>
+    <string name="signup_password_hint">Password</string>
+    <string name="signup_signup">Sign up</string>
+
+    <string name="cannot_be_empty">This field cannot be empty</string>
+    <string name="too_short">Password is too short(min length 6)</string>
+    <string name="invalid_credentials">Invalid Credentials</string>
+    <string name="menuHome">Home</string>
+    <string name="menuFavourite">Favourite</string>
+    <string name="menuProfile">Profile</string>
+    <string name="home_search">Search</string>
+    <string name="home_latest_news">Latest News</string>
+    <string name="home_see_all">See All ></string>
+
+</resources>

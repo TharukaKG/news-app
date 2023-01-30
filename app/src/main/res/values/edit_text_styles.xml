@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="textInputLayout" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="strokeWidth">1dp</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="hintTextColor">@color/text_hint</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="boxStrokeErrorColor">@color/text_error</item>
+        <item name="boxBackgroundColor">@color/background_edit_text</item>
+        <item name="background">@color/transparent</item>
+        <item name="fontFamily">@font/open_sans_medium</item>
+        <item name="errorEnabled">true</item>
+    </style>
+
+    <style name="textInputEditText" parent="ThemeOverlay.Material3.TextInputEditText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">@font/open_sans_medium</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+    <style name="textInputLayoutSearch" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="strokeWidth">1dp</item>
+        <item name="boxCornerRadiusTopEnd">24dp</item>
+        <item name="boxCornerRadiusTopStart">24dp</item>
+        <item name="boxCornerRadiusBottomStart">24dp</item>
+        <item name="boxCornerRadiusBottomEnd">24dp</item>
+        <item name="android:textColor">@color/text_black</item>
+        <item name="hintTextColor">@color/text_hint</item>
+        <item name="android:textCursorDrawable">@null</item>
+        <item name="boxStrokeErrorColor">@color/text_error</item>
+        <item name="boxBackgroundColor">@color/background_edit_text</item>
+        <item name="background">@color/transparent</item>
+        <item name="fontFamily">@font/open_sans_medium</item>
+        <item name="errorEnabled">false</item>
+        <item name="endIconDrawable">@drawable/icon_search</item>
+        <item name="endIconMode">custom</item>
+    </style>
+
+    <style name="textInputEditTextSearch" parent="ThemeOverlay.Material3.TextInputEditText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@null</item>
+        <item name="android:fontFamily">@font/open_sans_medium</item>
+        <item name="android:textColor">@color/text_black</item>
+    </style>
+
+</resources>
